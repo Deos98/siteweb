@@ -1,0 +1,192 @@
+
+html {
+	height: 100%; 
+	margin: 0 auto; /* Permet de centrer tout le contenu du site */
+	padding: 0; /* Permet de définir les écarts de remplissage d'un élément sur l'ensemble de ses cotés */
+	max-width: 100%; /* Définit que la taille maximal du site est de 100% de l'écran */
+
+}
+
+body {
+	font: normal .80em 'trebuchet ms', sans-sherif; /* Définit la police du body */
+	background: #fff; /* Définit la couleur de fond du document ici du blanc */
+	margin: 0; /* Aucune marge n'est appliqué sur le body */ 
+	
+}
+
+p {
+	padding: 0 0 10px 0; /* Définit un écart en bas des paragraphes */
+	line-height: 1.8em; /* Définit la hauteur de la zone contenant une ligne du contenu */
+}
+
+h2 {
+	font: normal 160% 'century gothic', arial; /* Définit la police */
+	font-size: 130%; /* Définit la taille de caractères de titres h2 */	
+	color: #03C9AE; /* Définit la couleur des titres h2 */
+}
+
+a {
+	color: #29DC4A; /* Définit la couleur des liens */
+	text-decoration: none; /* Quand le curseur passeras sur le lien le souslignement disparaitras */
+}
+
+ul li { 
+	list-style-type: circle; /* Définit un style de liste */
+	padding: 0 0 4px 5px; /* Met un écart vers le bas et vers la gauche */	
+}
+
+#header {
+	background: #12475D; /* Définit la couleur de fond de la div header */
+	height: 130px; /* Définit la hauteur de la div header */
+	border-bottom: 5px solid #29DC4A; /* Définit une bordure vers le bas pour la div header */
+}
+
+
+#logo {
+	/* position: absolute; */
+	left: 10px;
+}
+
+#logo h1{
+	font: normal 300% arial, sans-serif; /* Définit la police des titres de la div logo */
+	margin: 0 0 0 150px; /* Met une marge de 50px vers la gauche */
+}
+
+#textlogo h1, #textlogo h1 a, #textlogo h1 a:hover {
+	padding: 22px 0 0 0; /* 22px en haut, 0 à droite, 0 en bas, 0 à gauche */
+	color: #fff; /* Définit la couleur de l'élément */ 
+
+}
+
+#textlogo h1 a .couleurlogo {
+	color: #03C9AE; /* Définit la couleur  */
+}
+
+#barremenu {
+	width: 100%;
+	text-align: center;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li a {
+	font: normal 125% 'trebuchet ms', sans-serif; /* Définit la police */
+	display: block; 
+	height: 30px; /* Définit la hauteur */
+	padding: 6px 32px 5px 28px; /* Met un écart */
+	color: #fff; /* Définit la couleur du texte */
+	text-decoration: none; /* Aucune décoration de texte */
+	background: #042754; /* Définit la couleur de fond */
+}
+
+nav ul li.selected a {
+	height: 30px; /* Définit la hauteyr */
+	padding: 6px 35px 5px 28px; 
+}
+
+
+nav ul li a:hover {
+	background: #03C9AE;/* Définit la couleur du fond */
+	color: #fff; /* Définit la couleur du texte */
+}
+
+.selected a {
+	background: #03C9AE;/* Définit la couleur du fond */
+	color: #fff; /* Définit la couleur du texte */	
+}
+
+#contenu-site {
+	width: 900px; /* Largeur du bloc */
+	margin-left: auto; /* Définit les marges */
+	margin-right: auto;
+}
+
+#banner {
+	width: 900px; /* Largeur du bloc */
+	height: 150px; /* hauteur du bloc */
+	margin-bottom: 20px; /* Définit la marge du bas */
+	border: 5px solid #DDD; /* Met une bordure autour du bloc */
+}
+
+.sidebar {
+	float: right; /* Le bloc flotte à droite */
+	width: 250px; /* Largeur du bloc */
+	padding: 0; /* Définit les écarts */
+	margin: 0 0 15px 0; /* Définit les marges */
+	border: 2px solid lightblue;/* Met une bordure autour du bloc */
+	border-radius: 15%; /* Arrondi les coins de la bordure */
+	
+}
+
+.sidebar-item {
+	padding: 0 15px; /* Met des écarts */
+	width: 200px; /* Largeur du bloc */
+}
+
+.sidebar ul {
+	margin: 0; /* Ne met pas de marges */
+
+}
+
+#contenu {
+	text-align: left; /* Aligne le texte à gauche */
+	width: 620px; /* Largeur du bloc */
+	padding: 0 0 0 5px; /* Définit les écarts */
+	float: left; /* Le bloc flotte à gauche */
+}
+table {
+	margin: 10px 0 30px 0; /* Met des marges */
+}
+#tb {
+	margin-left: 100px;
+}
+table tr th, table tr td {
+	background: #3B3B3B; /* Définit la couleur de fond */
+	color: #FFF; /* Définit la couleur du texte */
+	padding: 7px 4px; /* Met des écarts */
+	text-align: left; /* Aligne le texte à gauche */
+}
+
+table tr td { 
+	background: #E5E5DB; /* Définit la couleur de fond */
+	color: #47433F; /* Définit la couleur du texte */ 
+	border-top: 1px solid #FFF; /* Met une bordure de 1px en haut du bloc */ 
+}
+#footer {
+	clear: both;
+	width: 100%; /* Définit la largeur */
+	font-family: 'Times New Roman', sans-serif; /* Définit la police */
+	font-size: 100%; /* définit la taille des caractères */
+	height: 80px; /* Définit la hauteur */
+	padding: 28px 0 5px 0; /* Met les écarts */
+	text-align: center; /* Centre le texte à l'interieur du bloc */
+	background: #12475D; /* Définit la couleur de fond */
+	color: #B6E0F1; /* Définit la couleur de caractères */
+	border-top: 5px solid #29DC4A; /* Met une bordure  au dessous du bloc */ 
+	margin: 0px;
+}
+
+#footer a {
+	color: #B6E0F1; /* Définit la couleur de caractères */
+	text-decoration: none; /* Aucune décoration de texte */
+	
+}
+
+#footer p {
+	margin: 0px;
+	padding: 0px;
+}
+
+#contenu-footer {
+	margin-top: 30px;
+}
